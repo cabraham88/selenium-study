@@ -38,6 +38,7 @@
            <version>1.7.36</version>
        </dependency>
 
+
    </dependencies>
     <build>
         <plugins>
@@ -46,8 +47,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
                 <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
